@@ -235,7 +235,7 @@
     </ClCompile>
     <Link>
       <OutputFile>bin\niflib.dll</OutputFile>
-      <Version>0.7</Version>
+      <Version>7.3</Version>
       <ImportLibrary>lib/niflib_dll.lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
@@ -257,7 +257,7 @@
     </ClCompile>
     <Link>
       <OutputFile>bin\niflib_x64.dll</OutputFile>
-      <Version>0.7.3</Version>
+      <Version>7.3</Version>
       <ImportLibrary>lib/niflib_dll.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
@@ -279,7 +279,7 @@
     </ClCompile>
     <Link>
       <OutputFile>bin\niflib_debug.dll</OutputFile>
-      <Version>0.7.3</Version>
+      <Version>7.3</Version>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>lib/niflib_dll_debug.lib</ImportLibrary>
     </Link>
@@ -304,7 +304,7 @@
     </ClCompile>
     <Link>
       <OutputFile>bin\niflib_debug_x64.dll</OutputFile>
-      <Version>0.7.3</Version>
+      <Version>7.3</Version>
       <ImportLibrary>lib/niflib_dll_debug.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
