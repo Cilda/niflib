@@ -53,8 +53,9 @@ POSSIBILITY OF SUCH DAMAGE. */
 #include "Ref.h"
 #include "nif_basic_types.h"
 
-using namespace std;
 namespace Niflib {
+
+    using namespace std;
 
 //Classes used
 class NiObject;
@@ -462,7 +463,7 @@ niNode->GetChildren;
 If you have a Ref of one type, such as a generic NiObjectRef, and want to do something with the object that requires it to be the more specialized NiNode type, you use the DynamicCast() template function.  To cast from a NiObjectRef to a NiNodeRef, you would do the following:
 
 \code
-NiObjectRef root = ReadNifTree( ìtest.nifî );
+NiObjectRef root = ReadNifTree( ìtest.nifÅE);
 NiNodeRef node = DynamicCast<NiNode>( root );
 if ( node != NULL ) {
    ...
