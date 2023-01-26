@@ -10,8 +10,9 @@ All rights reserved.  Please see niflib.h for license. */
 #include <stdexcept>
 #include "dll_export.h"
 
-using namespace std;
+
 namespace Niflib {
+	using namespace std;
 
 #ifndef PI
 #define PI 3.14159265358979323846f  //Probably more accurate than a float can be, but it will just be rounded off anyway
