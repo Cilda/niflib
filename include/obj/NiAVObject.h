@@ -262,6 +262,8 @@ public:
 	 */
 	NIFLIB_HIDDEN void SetParent( NiNode * new_parent );
 
+	unsigned short GetFlags() const { return flags; }
+
 protected:
 	NiNode * parent;
 
