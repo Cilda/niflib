@@ -99,9 +99,11 @@ public:
 	 */
 	NIFLIB_API void SetColors( const vector<Color4> & new_pixels, bool generate_mipmaps );
 
-	vector<vector<byte>> GetPixelData() const {
+	vector<vector<byte>>& GetPixelData() {
 		return pixelData;
 	}
+
+	unsigned int GetFaceCount() const { return numFaces; }
 
 	//--END CUSTOM CODE--//
 protected:

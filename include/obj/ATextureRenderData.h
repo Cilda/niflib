@@ -61,6 +61,7 @@ public:
 	NIFLIB_API virtual const Type & GetType() const;
 
 	//--BEGIN MISC CUSTOM CODE--//
+	unsigned int GetMipMapCount() const { return numMipmaps; }
 
 	//--END CUSTOM CODE--//
 protected:

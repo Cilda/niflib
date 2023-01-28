@@ -8,10 +8,9 @@ All rights reserved.  Please see niflib.h for license. */
 //To change this file, alter the niftools/docsys/gen_niflib.py Python script.
 
 #include <iostream>
-using namespace std;
 
 namespace Niflib {
-
+	using namespace std;
 /*! The type of force?  May be more valid values. */
 enum ForceType {
 	FORCE_PLANAR = 0, /*!< FORCE_PLANAR */

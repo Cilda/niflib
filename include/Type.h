@@ -7,9 +7,9 @@ All rights reserved.  Please see niflib.h for license. */
 #include <string>
 #include "dll_export.h"
 
-using namespace std;
-namespace Niflib {
 
+namespace Niflib {
+	using namespace std;
 // forward declaration
 class NiObject;
 
