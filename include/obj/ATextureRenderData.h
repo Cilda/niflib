@@ -63,6 +63,7 @@ public:
 	//--BEGIN MISC CUSTOM CODE--//
 	unsigned int GetMipMapCount() const { return numMipmaps; }
 
+	byte GetBitsPerPixel() const { return bitsPerPixel; }
 	//--END CUSTOM CODE--//
 protected:
 	/*! The format of the pixels in this internally stored image. */
