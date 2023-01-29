@@ -64,6 +64,7 @@ public:
 	unsigned int GetMipMapCount() const { return numMipmaps; }
 
 	byte GetBitsPerPixel() const { return bitsPerPixel; }
+	vector<MipMap>& GetMipMaps() { return mipmaps; }
 	//--END CUSTOM CODE--//
 protected:
 	/*! The format of the pixels in this internally stored image. */
